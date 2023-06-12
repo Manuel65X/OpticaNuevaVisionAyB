@@ -75,7 +75,7 @@ html {
 
 .main__container p{
 	text-align: center;
-	padding-bottom: 12px;
+	padding-bottom: 2px;
 }
 
 
@@ -83,12 +83,17 @@ html {
 	width: 70%;
 }
 
+.titulo-catalogo{
+	margin-top: 55px;
+	text-align: center;
+}
+
 .main__container-catalogo{
 	display: flex;
 	width: 900px;
 	height: 430px;
 	margin: auto;
-	margin-top: 75px; 
+	margin-top: 45px; 
 	z-index: 1;
 }
 
@@ -261,7 +266,7 @@ html {
 
 }
 
-@media only screen and (max-width: 500px) and (min-width: 400px) {
+@media only screen and (max-width: 700px) and (min-width: 400px) {
 	body{
 	margin: 0;
 	padding: 0;
@@ -322,7 +327,7 @@ html {
 	}	
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 400px) and (min-width: 300px){
 	body{
 	margin: 0;
 	padding: 0;
